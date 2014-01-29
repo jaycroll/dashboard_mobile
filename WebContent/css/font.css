@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+
+.lucida_21_black_b{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:21px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	
+}
+
+
+
+.lucida_18_black_b{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	
+}
+
+
+.lucida_15_black_b{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	
+}
+
+
+.lucida_12_lead_b{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#191919;
+	text-decoration:none;
+	
+}
+
+
+.lucida_12_steel_b{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#666666;
+	text-decoration:none;
+	
+}
+
+
+.lucida_12_tungsten_b{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#333333;
+	text-decoration:none;
+	
+}
+
+
+.lucida_12_blue_b{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#62bbf5;
+	text-decoration:none;
+	
+}
+
+.lucida_12_red_b{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#e63739;
+	text-decoration:none;
+	
+}
+
+.lucida_21_black{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:21px;
+
+	color:#000;
+	text-decoration:none;
+	
+}
+
+
+.lucida_18_black{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:18px;
+	color:#000;
+	text-decoration:none;
+	
+}
+
+
+.lucida_15_black{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:15px;
+	
+	color:#000;
+	text-decoration:none;
+	
+}
+
+
+.lucida_12_lead{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	color:#191919;
+	text-decoration:none;
+	
+}
+
+
+.lucida_12_steel{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	color:#666666;
+	text-decoration:none;
+	
+}
+
+
+.lucida_12_tungsten{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	color:#333333;
+	text-decoration:none;
+	
+}
+
+
+.lucida_12_blue{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	color:#62bbf5;
+	text-decoration:none;
+	
+}
+
+.lucida_12_red{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	color:#e63739;
+	text-decoration:none;
+	
+}
+
+
+
+.lucida_10_lead{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:10px;
+	color:#191919;
+	text-decoration:none;
+	
+}
+
+
+.lucida_10_steel{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:10px;
+	color:#666666;
+	text-decoration:none;
+	
+}
+
+
+.lucida_10_tungsten{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:10px;
+	color:#333333;
+	text-decoration:none;
+	
+}
+
+
+.lucida_10_blue{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:10px;
+	color:#62bbf5;
+	text-decoration:none;
+	
+}
+
+.lucida_10_red{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:10px;
+	color:#e63739;
+	text-decoration:none;
+	
+}
+
+a:link    {color:#666666; text-decoration:none;}
+a:visited {color:#333333; text-decoration:none;}
+a:hover   {color:#999999; text-decoration:none;}
+a:active  {color:#333333; text-decoration:none;}
+
+.access_denied{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#e63739;
+	text-decoration:none;
+	
+}
+
+

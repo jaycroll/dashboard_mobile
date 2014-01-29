@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+                 
+                    <display-name>Dashboard_mobile</display-name>
+     <welcome-file-list>
+    <welcome-file>Index</welcome-file>
+  </welcome-file-list>
+  
+  <filter>
+    <filter-name>UrlRewriteFilter</filter-name>
+    <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+  </filter>
+ <filter>
+    <filter-name>ExportFileFilter</filter-name>
+   <filter-class>com.filter.ExportFileFilter</filter-class>
+  </filter>
+<!-- <filter>
+    <filter-name>TestFilter</filter-name>
+   <filter-class>com.filter.TestFilter</filter-class>
+  </filter>-->
+  <filter-mapping>
+    <filter-name>UrlRewriteFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+ <filter-mapping>
+    <filter-name>ExportFileFilter</filter-name>
+    <url-pattern>/export/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+
+ <mime-mapping>
+<extension>mht</extension>
+<mime-type>application/octet-stream</mime-type>
+<!--<mime-type>multipart/related</mime-type>-->
+</mime-mapping>
+  
+  <servlet>
+    <servlet-name>Index</servlet-name>
+    <servlet-class>com.controller.lib.Index</servlet-class>
+  </servlet>
+   
+  <context-param>
+    <param-name>sitePath</param-name>
+    <param-value>Dashboard_mobile</param-value>
+  </context-param>
+</web-app>

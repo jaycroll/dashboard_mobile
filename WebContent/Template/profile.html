@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('a.login-window').click(function() {
+		
+                //Getting the variable's value from a link 
+		var loginBox = $(this).attr('href');
+
+		//Fade in the Popup
+		$(loginBox).fadeIn(300);
+		
+		//Set the center alignment padding + border see css style
+		var popMargTop = ($(loginBox).height() + 24) / 2; 
+		var popMargLeft = ($(loginBox).width() + 24) / 2; 
+		
+		$(loginBox).css({ 
+			'margin-top' : -popMargTop,
+			'margin-left' : -popMargLeft
+		});
+		
+		// Add the mask to body
+		$('body').append('<div id="mask"></div>');
+		$('#mask').fadeIn(300);
+		
+		return false;
+	});
+	
+	// When clicking on the button close or the mask layer the popup closed
+	$('a.close, #mask').live('click', function() { 
+	  $('#mask , .login-popup').fadeOut(300 , function() {
+		$('#mask').remove();  
+	}); 
+	return false;
+	});
+});
+</script>
+<title>Dashboard</title>
+</head>
+
+<body>
+<div id="page">
+<div id="wrapper">
+<div id="header"><img src="images/ppe-blk.png" width="400" height="42" /></div>
+<div id="title"><img src="images/target-small.png" align="absmiddle"/><span class="lucida_12_lead"> DashBoard</span></div>
+<div id="menu">
+<div id="menu-right" class="lucida_12_lead"> Hello, Tom. <span class="lucida_12_red">Logout</span></div>
+<div id="menu-left">
+	<ul class="sub">
+	<li id="menu1"><a href="company.html" title="menu1" class="active"><span class="displace"></span></a></li>
+	<li id="menu2"><a href="team.html" title="menu2"><span class="displace"></span></a></li>
+    <li id="menu3"><a href="area.html"  title="menu3"><span class="displace"></span></a></li></ul>
+</div>
+</div>
+
+<div id="primary">
+<div id="profile-left"><img src="images/profile.png" width="78" height="99" hspace="10" vspace="5" align="left" />
+   <span class="lucida_12_steel">Juan dela Cruz</span><br />
+   <span class="lucida_10_tungsten"> 31 yrs old, born on january 1.<br />
+    Lives in Las Pinas City
+  +63 917 123 4567<br />
+    Hired last Jun 1, 2011<br />
+    handling Makati Area</span>
+</div>
+
+<div id="profile-right">
+<div id="content">
+<img src="images/graph2.png" width="423" height="116"/>
+</div><!---------content------------->
+</div><!---------primary-right------------->
+</div><!---------primary------------->
+</div><!---------wrapper------------->
+</div><!---------page------------->
+
+
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+.floatleft{
+	float:left;
+}
+
+.floatright{
+	float:right;
+}
+
+.clr{
+	clear:both;
+}
+
+.hnd{
+	cursor:pointer
+}
+
+
+.divCenter{
+	margin:0 auto;
+}
+
+.txtCenter{
+	text-align:center;
+}
+
+
+.txtLeft{
+	text-align:left;
+}
+
+.txtRight{
+	text-align:right;
+}
+
+
+
+.lnkRed{
+	color:#FF0000;	
+	cursor:pointer;
+	font-size:12px;
+}
+
+.lnkGrn{
+	color:#76b690;	
+	cursor:pointer;
+	font-size:12px;
+}
+
+.blue{
+	color:#92C6DA;
+}
+
+.red{
+	color:#FF0000;
+}
+
+
+.width130px{
+	width:130px;
+}
+
+.fnt11{
+	font-size:11px;	
+}
+
+.fnt13{
+	font-size:13px;	
+}
+
+
+.blu{
+	color:#62bbf5; font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; font-size:12px; text-decoration:none;
+}
+
+.txtCenter{
+	text-align:center;
+}
+
+.txtLeft{
+	text-align:left;
+}
+
+.green{
+	color:#3e7836;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; font-size:12px;  text-decoration:none;		
+}
+
+.bld{
+	font-weight:bold;
+}
+
+.grayTitle{
+	color:#c0c0c0;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; font-size:15px; font-weight:bold; text-decoration:none;		
+}
+
+.grayLight{
+	color:#79788c;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; font-size:15px;  text-decoration:none;	
+}
+
+
+.gry{
+	color:#C0C0C0;
+}
+.margintop30px{
+	margin-top:30px;
+	
+}
+
+
+.marginleft15px{
+	margin-left:15px;
+	
+}
+
+.width200px{
+	
+	width:200px;
+}
+
+/*
+.tableSection td
+{
+		border:1px solid #e4d8d8;
+		min-height:30px;
+}
+
+.tableSection table
+{
+		border:2px solid #e4d8d8;
+}
+*/
+
+
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	border-width: 1px;
+	border-color: #e4d8d8;
+	border-collapse: collapse;
+	color:#797979;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #e4d8d8;
+	
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #e4d8d8;	
+}
+
+.access_denied{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#e63739;
+	text-decoration:none;
+	
+}
+
+.

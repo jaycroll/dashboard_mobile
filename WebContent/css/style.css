@@ -1,0 +1,644 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	overflow-y:scroll;
+}
+
+
+body {
+	background:#fff top center;
+	margin:0;
+	padding:0;	
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	
+	
+}
+
+#page {
+	width:980px;
+	height:auto;
+	margin: 0 auto;
+}
+
+#wrapper {
+	width:100%;
+	height:auto;
+	
+		
+}
+#header {
+	width:100%;
+	height: 30px;
+	margin-top:20px;
+	align: center;
+	margin-bottom:20px;
+}
+.header_img{
+	background: url("../images/ppe-blk.png");
+	width: 1px;
+	height: 1px;
+	padding:20px 200px;
+
+}
+
+#title {
+	width:auto;
+	height: 53px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	text-align:center;
+	
+}
+
+
+#menu {
+	width:100%;
+	height:50px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+		
+}
+
+
+#menu-right {
+	float:right;
+	width:200px;
+	height:30px;
+	margin-top:15px;
+		
+}
+
+#menu-left {
+	float:left;
+	width:386px;
+	height:43px;
+		
+}
+
+#menu-access {
+	float:left;
+	width:724px;
+	height:50px;
+		
+}
+
+#submenu {
+	width:100%;
+	height:50px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;		
+}
+
+#submenu-left {
+	float:left;
+	width:300px;
+	height:auto;
+	padding:5px;
+	margin-top:15px;
+	
+	
+}
+
+#submenu-right {
+	float:right;
+	width:300px;
+	height:30px;
+	margin-top:15px;
+	margin-right:20px;	
+	
+}
+
+.hoverhand
+{
+    cursor: pointer;
+}
+
+#submenu-right2 {
+	float:right;
+	width:700px;
+	height:30px;
+	margin-top:15px;
+	margin-right:20px;	
+	
+}
+#icons {
+	width:100%;
+	height:110px;
+	align:center;
+}
+
+#content  {
+	width:100%;
+	margin:0px auto;
+	/*
+	border:1px solid#ccc;	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 15px rgba(48, 50, 50, 0.74);
+	-moz-box-shadow:    0px 0px 15px rgba(48, 50, 50, 0.74);
+	box-shadow:         0px 0px 15px rgba(48, 50, 50, 0.74);
+	*/
+	
+	
+}
+
+#content2  {
+	width:100%;
+	margin:20px auto;
+	
+	
+}
+
+#box-table {
+	border:0px; 
+	border-style:solid; 
+	border-color:#666; 
+	-moz-border-radius-topleft: 10px/*{cornerRadius}*/; 
+	-moz-border-radius-topright: 10px/*{cornerRadius}*/; 
+	-moz-border-radius-bottomright: 10px/*{cornerRadius}*/;
+	-moz-border-radius-bottomleft: 10px/*{cornerRadius}*/; 
+ 
+	-webkit-border-top-right-radius: 10px/*{cornerRadius}*/; 
+	-webkit-border-top-left-radius: 10px/*{cornerRadius}*/; 
+	-webkit-border-bottom-right-radius: 10px/*{cornerRadius}*/;
+	-webkit-border-bottom-left-radius: 10px/*{cornerRadius}*/;  
+
+	-khtml-border-top-left-radius: 10px/*{cornerRadius}*/; 
+	-khtml-border-top-right-radius: 10px/*{cornerRadius}*/; 
+	-khtml-border-bottom-right-radius: 10px/*{cornerRadius}*/; 
+	-khtml-border-bottom-left-radius: 10px/*{cornerRadius}*/; 
+	
+	border-bottom-left-radius: 10px/*{cornerRadius}*/;
+	border-bottom-right-radius: 10px/*{cornerRadius}*/;
+	border-top-left-radius: 10px/*{cornerRadius}*/;
+	border-top-right-radius: 10px/*{cornerRadius}*/;
+		
+	-webkit-box-shadow: 1px 1px 10px 3px #999999;
+	 box-shadow: 1px 1px 10px 3px #999999;
+	width:442px;	
+	margin: 0 auto;
+				
+}
+
+#primary {
+	width:115%;
+	height:100%;
+	overflow: auto;
+	margin:20px auto;
+	
+}
+
+#primary-content {
+	width:250px;
+	height:auto;
+	text-align:left;
+	
+	
+}
+
+
+#primary-left {
+	float:left;
+	width:100px;
+	margin:10px;
+	color:#666;
+	font-weight:bold;
+	
+}
+
+
+#primary-right {
+	float:right;
+	width:600px;
+	height:auto;	margin-right:20px;
+	margin-top:10px;
+	text-align:center;
+	color:#666;
+		
+	
+}
+#profile-left {
+	float:left;
+	width:250px;
+	height:auto;	
+	margin:10px;
+	color:#666;
+	font-weight:bold;
+}
+
+
+
+
+#profile-right {
+	float:right;
+	width:600px;
+	height:auto;
+	margin-right:70px;
+	margin-top:10px;
+	text-align:center;
+	color:#666;
+		
+	
+}
+#login-container{
+		width:auto;
+	height: 53px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	text-align:center;
+}
+/*********************************main menu icons*****************************/
+.close{
+	background: url("../images/close_pop.png");
+	padding: 15px 15px;
+	width:1px;
+	height:1px;
+	float:right;
+	margin: -28px -20px 0 0;
+}
+.icon1{
+	background: url("../images/icon1.png");
+	width: 1px;
+	height: 1px;
+	padding: 51px 49px;
+	float: left;
+	margin-left:27%;
+}
+.icon2{
+	background: url("../images/icon2.png");
+	width: 1px;
+	height: 1px;
+	padding: 51px 49px;
+	float: left;
+	margin-left: 2%;
+}
+.icon3{
+	background: url("../images/icon3.png");
+	width: 1px;
+	height: 1px;
+	padding: 51px 45px;
+	float: left;
+	margin-left: 2%;
+}
+.icon4{
+	background: url("../images/access.png");
+	width: 1px;
+	height: 1px;
+	padding: 51px 49px;
+	float: left;
+	margin-left:3%;
+	margin-right:23%;
+}
+/*************************************************************************for modal******************************************************/
+/* Mask for background, by default is not display */
+#mask {
+	display: none;
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+	background:#333333;
+}
+
+/* You can customize to your needs  */
+.login-popup{
+	display:none;
+	background:#f5f5f5;
+	padding: 10px; 	
+	border: 1px solid #ccc;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	
+	border-radius:2px;
+        -moz-border-radius: 2px; /* Firefox */
+        -webkit-border-radius: 2px; /* Safari, Chrome */
+}
+.login-window{
+	color:#62bbf5; 
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; 
+	font-size:12px; 
+	font-weight:bold; 
+	text-decoration:none;
+
+}
+img.btn_close { /*Position the close button*/
+	
+	margin: -28px -20px 0 0;
+	float:right;
+
+}
+
+fieldset { 
+	border:none; 
+}
+
+form.signin .textbox label { 
+	display:block; 
+	padding-bottom:7px; 
+	color:#333;
+}
+
+form.signin .textbox span { 
+	display:block;
+}
+
+form.signin p, form.signin span { 
+	color:#999; 
+	font-size:11px; 
+	line-height:18px;
+} 
+
+form.signin .textbox input { 
+	background:#ffffff; 
+	
+        border-radius: 3px 3px 3px 3px;
+		-moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	padding:8px 8px 4px;
+	width:200px;
+}
+
+form.signin input:-moz-placeholder { color:#bbb; text-shadow:0 0 2px #000; }
+form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #000;  }
+
+.button { 
+	float:right;
+	
+	color:#333;
+	cursor:pointer;
+	
+	margin-top:10px;
+	font:12px; 
+	
+	
+}
+.button:hover { background:#f9f9f9; }
+
+/*************************************************************************for modal******************************************************/
+
+/***************************** for menu-ACTION STATE**************************************************************/	 
+
+ul.sub
+{
+	padding:0 0px;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the sub as desired*/
+}
+        
+ul.sub li
+{
+    display: block;
+	   
+   
+}
+	    
+ul.sub li#menu1 a{ float:left; display: block; width: 124px; margin: 0 0px;  height: 43px;  text-decoration: none; background: url("../images/menu-01.png");}
+ul.sub li#menu2 a{float:left; display: block; width: 122px; margin: 0 0px;  height: 43px; text-decoration: none; background: url("../images/menu-02.png");}
+ul.sub li#menu3 a{float:left; display: block; width: 122px; margin: 0 0px; height: 43px; text-decoration: none; background: url("../images/menu-03.png");}
+
+
+
+ul.sub li#menu1 a:visited{background-position: -124px 0;}
+ul.sub li#menu2 a:visited{background-position: -122px 0;}
+ul.sub li#menu3 a:visited{background-position: -122px 0;}
+
+ul.sub li#menu1 a:hover{background-position: -124px 0;}
+ul.sub li#menu2 a:hover{background-position:-122px 0;}
+ul.sub li#menu3 a:hover{background-position: -122px 0;}
+
+       
+ul.sub li#menu1 a.active {background-position:  -124px 0;}
+ul.sub li#menu2 a.active {background-position:  -122px 0;}
+ul.sub li#menu3 a.active {background-position:  -122px 0;}
+
+
+
+/********************************************** end of ACTION STATE****************************************************/
+
+/***************************** for menu-ACTION STATE**************************************************************/	 
+
+ul.access
+{
+	padding:0 0px;
+	font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the sub as desired*/
+}
+        
+ul.access li
+{
+    display: block;
+	   
+   
+}
+	    
+ul.access li#access1 a{float:left; display: block; width: 181px; margin: 0 0px;  height: 50px;  text-decoration: none; background: url("../images/user_management.jpg");}
+ul.access li#access2 a{float:left; display: block; width: 181px; margin: 0 0px;  height: 50px; text-decoration: none; background: url("../images/role_management.jpg");}
+ul.access li#access3 a{float:left; display: block; width: 181px; margin: 0 0px; height: 50px; text-decoration: none; background: url("../images/privileges_management.jpg");}
+ul.access li#access4 a{float:left; display: block; width: 181px; margin: 0 0px; height: 50px; text-decoration: none; background: url("../images/target_management.jpg");}
+ul.access li#access5 a{float:left; display: block; width: 181px; margin: 0 0px; height: 50px; text-decoration: none; background: url("../images/channel_management.jpg");}
+ul.access li#access6 a{float:left; display: block; width: 181px; margin: 0 0px; height: 50px; text-decoration: none; background: url("../images/sales_management.jpg");}
+ul.access li#access7 a{float:left; display: block; width: 216px; margin: 0 0px; height: 50px; text-decoration: none; background: url("../images/product_target.jpg");}
+
+ul.access li#access1 a:visited{background-position: -181px 0;}
+ul.access li#access2 a:visited{background-position: -181px 0;}
+ul.access li#access3 a:visited{background-position: -181px 0;}
+ul.access li#access4 a:visited{background-position: -181px 0;}
+ul.access li#access5 a:visited{background-position: -181px 0;}
+ul.access li#access6 a:visited{background-position: -181px 0;}
+ul.access li#access7 a:visited{background-position: -216px 0;}
+
+ul.access li#access1 a:hover{background-position: -181px 0;}
+ul.access li#access2 a:hover{background-position:-181px 0;}
+ul.access li#access3 a:hover{background-position: -181px 0;}
+ul.access li#access4 a:hover{background-position: -181px 0;}
+ul.access li#access5 a:hover{background-position: -181px 0;}
+ul.access li#access6 a:hover{background-position: -181px 0;}
+ul.access li#access7 a:hover{background-position: -216px 0;}
+
+ul.access li#access1 a.active {background-position:  -181px 0;}
+ul.access li#access2 a.active {background-position:  -181px 0;}
+ul.access li#access3 a.active {background-position:  -181px 0;}
+ul.access li#access4 a.active {background-position:  -181px 0;}
+ul.access li#access5 a.active {background-position:  -181px 0;}
+ul.access li#access6 a.active {background-position:  -181px 0;}
+ul.access li#access7 a.active {background-position:  -216px 0;}
+/********************************************** end of ACTION STATE****************************************************/
+
+ul.sales
+{
+	padding:0 0px;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the sub as desired*/
+}
+        
+ul.sales li
+{
+    display: block;
+	   
+   
+}
+
+ul.sales li#salesmanagement a{float:left; display: block; width: 181px; margin: 0 0px;  height: 50px;  text-decoration: none; background: url("../images/sales_management.jpg");}
+ul.sales li#targetmanagement a{float:left; display: block; width: 181px; margin: 0 0px;  height: 50px; text-decoration: none; background: url("../images/target_management.jpg");}
+ul.sales li#channelmanagement a{float:left; display: block; width: 181px; margin: 0 0px; height: 50px; text-decoration: none; background: url("../images/channel_management.jpg");}
+ul.sales li#productmanagement a{float:left; display: block; width: 181px; margin: 0 0px; height: 50px; text-decoration: none; background: url("../images/productsalesmanagement_tab.jpg");}
+
+
+ul.sales li#salesmanagement a:visited{background-position: -181px 0;}
+ul.sales li#targetmanagement a:visited{background-position: -181px 0;}
+ul.sales li#channelmanagement a:visited{background-position: -181px 0;}
+ul.sales li#productmanagement a:visited{background-position: -181px 0;}
+
+
+ul.sales li#salesmanagement a:hover{background-position: -181px 0;}
+ul.sales li#targetmanagement a:hover{background-position:-181px 0;}
+ul.sales li#channelmanagement a:hover{background-position: -181px 0;}
+ul.sales li#productmanagement a:hover{background-position: -181px 0;}
+
+
+
+ul.sales li#salesmanagement a.active {background-position:  -181px 0;}
+ul.sales li#targetmanagement a.active {background-position:  -181px 0;}
+ul.sales li#channelmanagement a.active {background-position:  -181px 0;}
+ul.sales li#productmanagement a.active {background-position:  -181px 0;}
+
+
+
+
+/***************************** for sub menu-ACTION STATE**************************************************************/	 
+	    
+ul.tab {
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+ul.tab li a { 
+	float:left;
+	
+	text-decoration:none;
+	color:#333;
+	font-weight:bold;
+	padding:5px 7px;
+	
+
+}
+
+ul.tab li a:hover {
+	color:#666;
+	font-weight:bold;
+}
+
+ul.tab li a.active {
+	color:#999;
+	font-weight:bold;
+}
+
+li tab {
+	
+	display:inline;
+
+}
+
+
+
+/********************************************** end of ACTION STATE****************************************************/	 
+
+
+/***************************** for menu-ACTION STATE**************************************************************/	 
+
+ul.target
+{
+	padding:0 0px;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the sub as desired*/
+}
+        
+ul.target li
+{
+    display: block;
+	   
+   
+}
+	    
+ul.access li#target1 a{ float:left; display: block; width: 170px; margin: 0 0px;  height: 44px;  text-decoration: none; background: url("../images/access-tab02.png");}
+ul.access li#target2 a{float:left; display: block; width: 165px; margin: 0 0px;  height: 44px; text-decoration: none; background: url("../images/access-tab01.png");}
+
+
+
+ul.access li#target1 a:visited{background-position: -170px 0;}
+ul.access li#target2 a:visited{background-position: -165px 0;}
+
+ul.access li#target1 a:hover{background-position: -170px 0;}
+ul.access li#target2 a:hover{background-position:-165px 0;}
+
+       
+ul.access li#target1 a.active {background-position:  -170px 0;}
+ul.access li#target2 a.active {background-position:  -165px 0;}
+
+
+
+/********************************************** end of ACTION STATE****************************************************/
+
+ul.map
+{
+	padding:0 0px;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the sub as desired*/
+}
+        
+ul.map li
+{
+    display: block;
+	   
+   
+}
+	    
+ul.map li#domestic a{ float:left; display: block; width: 116px; margin: 0 0px;  height: 55px;  text-decoration: none; background: url("../images/domestic.png");}
+ul.map li#international a{float:left; display: block; width: 118px; margin: 0 0px;  height: 55px; text-decoration: none; background: url("../images/international.png");}
+
+ul.map li#domestic a:visited{background-position: -116px 0;}
+ul.map li#international a:visited{background-position: -118px 0;}
+
+
+ul.map li#domestic a:hover{background-position: -116px 0;}
+ul.map li#international a:hover{background-position:-118px 0;}
+
+
+       
+ul.map li#domestic a.active {background-position:  -116px 0;}
+ul.map li#international a.active {background-position:  -118px 0;}
+
+
+
+
+
